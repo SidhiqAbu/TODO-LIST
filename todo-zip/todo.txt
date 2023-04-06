@@ -1,0 +1,65 @@
+//todo project
+
+//CRUD
+//features 
+// form having three field --> name,category,date,descriptions
+//check ,uncheck
+//delete
+
+
+//tech
+//backend language --> node js 
+// framework --> express
+//database --> mongo db
+//frontend --> ejs --> html,css
+
+//backend
+//MVC 
+//model view controller
+
+//dependency --> which are required on prodution
+//run a server
+express.json()
+//cors --> cross origin resource sharing;
+//app.use(cors());
+
+//run a server
+//app,db connections
+
+
+
+//backend
+ //model 
+//name,category,date,status
+//router
+//controller
+
+
+
+//REST API
+
+/todo/create
+/todo/getid/:id
+
+/todo/ --> POST -->create ()
+/todo/:id -->GET -->GET todo of id  
+/todo --> GET --> get all list of todo ()
+/todo/:id --> DELETE --> Delete the todo 
+/todo/:id --> PUT --> UPdate todo of id ()
+/todo/:id/status/:status_id --> update status -->PUT ()
+
+var student = {
+	name:'',
+	class:'',
+	id:''
+};
+
+
+
+var name = student.name;
+var id = student.id
+
+const {name,id}= student;
+
+
+// npm install
